@@ -17,7 +17,7 @@ class Login
     public function index($erro = '')
     {
         $page_title = 'Login';
-        $page_css = BASE_URL . 'assets/CSS/login.css';
+        $page_css = BASE_URL . 'assets/css/login.css';
 
         require('app/Views/login.php');
 

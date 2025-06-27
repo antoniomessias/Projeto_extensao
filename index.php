@@ -7,7 +7,7 @@
         $metodo = isset($_GET['m']) ? $_GET['m'] : $metodo;
     }
 
-    require('./app/Controllers/' . $controler . '.php');
+    require('./app/Controllers/' . ucfirst($controler) . '.php');
 
     $classe = new $controler();
 

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?= BASE_URL ?>assets/CSS/login.css">
+<link rel="stylesheet" href="<?= BASE_URL ?>assets/css/login.css">
 
 <div class="container">
   <h1>AgroSuaçuna 🐾<br>Login</h1>
