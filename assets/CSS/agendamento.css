@@ -1,0 +1,141 @@
+.main-content {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-bg);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Formulário */
+.form-container {
+  flex: 1;
+  min-width: 320px;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid var(--header-border);
+  border-radius: 8px;
+  background-color: var(--main-bg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  color: var(--header-text);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--sidebar-title);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid var(--header-border);
+  border-radius: 4px;
+  background-color: var(--main-bg);
+  color: var(--sidebar-text);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--button-hover);
+  outline: none;
+  box-shadow: 0 0 5px rgba(49, 130, 206, 0.5);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: var(--button-hover);
+}
+
+.result-section {
+  flex: 2;
+  min-width: 320px;
+  max-height: 650px;
+  overflow-y: auto;
+  padding: 20px;
+  border: 1px solid var(--header-border);
+  border-radius: 8px;
+  background-color: var(--main-bg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result-section h2 {
+  margin-top: 0;
+  color: var(--header-text);
+  font-size: 22px;
+}
+
+.paciente-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: var(--main-bg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.paciente-card:hover {
+  transform: scale(1.02);
+}
+
+.paciente-card .texto {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.paciente-card h3 {
+  font-size: 1.2rem;
+  color: var(--header-text);
+  margin-bottom: 10px;
+}
+
+.paciente-card p {
+  margin: 5px 0;
+  color: var(--header-text);
+}
+
+.foto-pet {
+  font-size: 50px;
+  margin-left: 20px;
+  color: var(--sidebar-text);
+}
